@@ -1,0 +1,40 @@
+{
+    "list-context.image-list#banners-agrupados": {
+        "children": [
+            "list-context-renderer#banners-agrupados"
+        ],
+        "props": {
+            "blockClass": "banners",
+            "images": [
+                {
+                    "image": "https://i.imgur.com/5TKycho.jpeg"
+                },
+                {
+                    "image": "https://i.imgur.com/kzF2tuC.jpeg"
+                },
+                {
+                    "image": "https://i.imgur.com/M4tLgrn.jpeg"
+                },
+                {
+                    "image": "https://i.imgur.com/XOYwFkE.jpeg"
+                },
+                {
+                    "image": "https://i.imgur.com/3t2tV3u.jpeg"
+                },
+                {
+                    "image": "https://i.imgur.com/mchi6Iv.jpeg"
+                },
+                {
+                    "image": "https://imgur.com/Gz1Bfqt.jpg"
+                }
+            ]
+        }
+    },
+    "list-context-renderer#banners-agrupados": {
+        "props": {
+            "blockClass": "banners",
+            "listElement": "ul",
+            "itemElement": "li"
+        }
+    }
+}

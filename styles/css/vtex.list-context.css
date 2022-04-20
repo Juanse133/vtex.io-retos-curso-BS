@@ -1,0 +1,23 @@
+@media (min-width:40em) {
+    .list--banners {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item--banners {
+        width: calc(100%/3);
+    }
+
+    .item--banners:nth-child(4n) {
+        width: 100%
+    }
+}
+
+.item--banners {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+.list--banners {
+    padding: 0;
+}
