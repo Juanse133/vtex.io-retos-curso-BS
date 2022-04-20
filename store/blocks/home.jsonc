@@ -1,5 +1,7 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": [
+            "list-context.product-list#vitrina-1"
+        ]
     }
 }

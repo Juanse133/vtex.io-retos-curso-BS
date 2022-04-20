@@ -1,0 +1,19 @@
+{
+    "list-context.product-list#vitrina-1": {
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#vitrina-1"
+        ]
+    },
+    "slider-layout#vitrina-1": {
+        "props": {
+            "centerMode": {
+                "desktop": "disabled",
+                "tablet": "disabled",
+                "mobile": "to-the-left"
+            }
+        }
+    }
+}
