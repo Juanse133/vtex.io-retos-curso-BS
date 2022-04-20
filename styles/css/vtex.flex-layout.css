@@ -1,0 +1,16 @@
+.flexRowContent--promesas{
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flexRow--categorias{
+    background-color: #e8edf1;
+}
+
+.flexRowContent--categorias{
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+

@@ -1,0 +1,50 @@
+{
+    "flex-layout.row#categorias": {
+        "children": [
+            "flex-layout.col#categorias-texto",
+            "flex-layout.col#categorias-1",
+            "flex-layout.col#categorias-1",
+            "flex-layout.col#categorias-1",
+            "flex-layout.col#categorias-1",
+            "flex-layout.col#categorias-1",
+            "flex-layout.col#categorias-1",
+            "flex-layout.col#categorias-1",
+            "flex-layout.col#categorias-1"
+        ],
+        "props": {
+            "blockClass": "categorias"
+        }
+    },
+    "flex-layout.col#categorias-texto": {
+        "children": [
+            "rich-text#categorias-texto-encabezado",
+            "rich-text#categorias-texto-link"
+        ]
+    },
+    "flex-layout.col#categorias-1": {
+        "children": [
+            "image#categorias",
+            "rich-text#categorias-texto-1"
+        ]
+    },
+    "rich-text#categorias-texto-encabezado": {
+        "props": {
+            "text": "### **¿QUÉ ESTÁS BUSCANDO?**"
+        }
+    },
+    "rich-text#categorias-texto-link": {
+        "props": {
+            "text": "[VER TODO](/categorias)"
+        }
+    },
+    "image#categorias": {
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff"
+        }
+    },
+    "rich-text#categorias-texto-1": {
+        "props": {
+            "text": "cuiadado capilar"
+        }
+    }
+}
