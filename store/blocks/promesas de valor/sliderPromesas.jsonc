@@ -1,0 +1,24 @@
+{
+    "slider-layout#promesas": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "mobileOnly",
+            "showPaginationDots": "never",
+            "centerMode": {
+                "mobile": "to-the-left"
+            }
+        },
+        "children": [
+            "flex-layout.row#promesas-item-1",
+            "flex-layout.row#promesas-item-1",
+            "flex-layout.row#promesas-item-1",
+            "flex-layout.row#promesas-item-1",
+            "flex-layout.row#promesas-item-1"
+        ]
+    }
+}

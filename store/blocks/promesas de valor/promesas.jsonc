@@ -1,0 +1,18 @@
+{
+    "flex-layout.row#promesas-item-1": {
+        "children": [
+            "image#promesas",
+            "rich-text#promesa-textos"
+        ]
+    },
+    "image#promesas": {
+        "props": {
+            "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff"
+        }
+    },
+    "rich-text#promesa-textos": {
+        "props": {
+            "text": "parte normal \n **negrilla**"
+        }
+    }
+}
