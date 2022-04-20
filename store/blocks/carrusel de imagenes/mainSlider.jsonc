@@ -1,0 +1,43 @@
+{
+    "list-context.image-list#banner-principal": {
+        "children": ["slider-layout#banner-principal"],
+        "props": {
+            "title": "banner principal",
+            "images": [
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpg",
+                    "link": {
+                        "url": "/categoria-1"
+                    }
+                },
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpg",
+                    "link": {
+                        "url": "/categoria-2"
+                    }
+                },
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpg",
+                    "link": {
+                        "url": "/categoria-3"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#banner-principal": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always",
+            "autoplay": {
+                "timeout": 3500
+            },
+            "fullWidth": true
+        }
+    }
+}

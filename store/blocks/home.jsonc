@@ -1,5 +1,8 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": [
+            "list-context.image-list#banner-principal", // Reto 1
+            "list-context.image-list#banner-video" // Reto 2
+        ]
     }
 }
