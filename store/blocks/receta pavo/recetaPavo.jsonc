@@ -1,0 +1,98 @@
+{
+    // Desktop
+    "responsive-layout.desktop#receta-pavo": {
+        "children": [
+            "flex-layout.row#desktop-receta-pavo"
+        ]
+    },
+    "flex-layout.row#desktop-receta-pavo": {
+        "children": [
+            "flex-layout.col#desktop-receta-pavo-imagen",
+            "flex-layout.col#desktop-receta-pavo-contenido"
+        ]
+    },
+    "flex-layout.col#desktop-receta-pavo-imagen": {
+        "children": [
+            "image#desktop-receta-pavo"
+        ]
+    },
+    "image#desktop-receta-pavo": {
+        "props": {
+            "src": "https://imgur.com/ipQipBB.jpg"
+        }
+    },
+    "flex-layout.col#desktop-receta-pavo-contenido": {
+        "children": [
+            "flex-layout.row#desktop-receta-pavo-titulo",
+            "flex-layout.row#desktop-receta-pavo-texto",
+            "flex-layout.row#desktop-receta-pavo-iconos-arriba",
+            "flex-layout.row#desktop-receta-pavo-iconos-abajo"
+        ]
+    },
+    "flex-layout.row#desktop-receta-pavo-titulo": {
+        "children": [
+            "rich-text#titulo-receta-pavo"
+        ]
+    },
+    "rich-text#titulo-receta-pavo": {
+        "props": {
+            "text": "## Pavo dorado relleno al horno"
+        }
+    },
+    "flex-layout.row#desktop-receta-pavo-texto": {
+        "children": [
+            "rich-text#texto-receta-pavo"
+        ]
+    },
+    "rich-text#texto-receta-pavo": {
+        "props": {
+            "text": "Delicioso y sencillo de preparar, pavo al horno relleno de verduras con jamón serrano para celebrar la navidad con toda la familia."
+        }
+    },
+    "flex-layout.row#desktop-receta-pavo-iconos-arriba": {
+        "children": [
+            "flex-layout.col#desktop-receta-pavo-iconos-tiempo",
+            "flex-layout.col#desktop-receta-pavo-iconos-ingredientes",
+            "flex-layout.col#desktop-receta-pavo-iconos-tiempo"
+        ]
+    },
+    "flex-layout.row#desktop-receta-pavo-iconos-abajo": {
+        "children": [
+            "flex-layout.col#desktop-receta-pavo-iconos-tiempo",
+            "flex-layout.col#desktop-receta-pavo-iconos-tiempo",
+            "flex-layout.col#desktop-receta-pavo-iconos-tiempo"
+        ]
+    },
+    "flex-layout.col#desktop-receta-pavo-iconos-tiempo": {
+        "children": [
+            "image#desktop-receta-pavo-iconos-tiempo",
+            "rich-text#desktop-receta-pavo-iconos-tiempo"
+        ]
+    },
+    "image#desktop-receta-pavo-iconos-tiempo": {
+        "props": {
+            "src": "https://imgur.com/RWj3DiZ.png"
+        }
+    },
+    "rich-text#desktop-receta-pavo-iconos-tiempo": {
+        "props": {
+            "text": "60 minutos"
+        }
+    },
+    "flex-layout.col#desktop-receta-pavo-iconos-ingredientes": {
+        "children": [
+            "image#desktop-receta-pavo-iconos-ingredientes",
+            "rich-text#desktop-receta-pavo-iconos-ingredientes"
+        ]
+    },
+    "image#desktop-receta-pavo-iconos-ingredientes": {
+        "props": {
+            "src": "https://imgur.com/YU224Ni.png"
+        }
+    },
+    "rich-text#desktop-receta-pavo-iconos-ingredientes": {
+        "props": {
+            "text": "8 ingredientes"
+        }
+    }
+}
