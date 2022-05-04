@@ -7,7 +7,7 @@
         ],
         "blocks": [
             "drawer-trigger#size-guide",
-            "drawer-header#my-drawer"
+            "drawer-header#size-guide"
         ]
     },
     "drawer-trigger#size-guide": {
@@ -22,7 +22,7 @@
             "text": "Guía de tallas"
         }
     },
-    "drawer-header#my-drawer": {
+    "drawer-header#size-guide": {
         "title": "Header guía de tallas",
         "children": [
             "drawer-close-button",
