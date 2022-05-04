@@ -1,0 +1,41 @@
+{
+    "drawer#size-guide": {
+        "title": "Guía de tallas",
+        "children": [
+            "drawer#size-guide-man",
+            "drawer#size-guide-woman"
+        ],
+        "blocks": [
+            "drawer-trigger#size-guide",
+            "drawer-header#my-drawer"
+        ]
+    },
+    "drawer-trigger#size-guide": {
+        "title": "Trigger guía de tallas",
+        "children": [
+            "rich-text#open-drawer-size-guide"
+        ]
+    },
+    "rich-text#open-drawer-size-guide": {
+        "title": "Texto trigger guía de tallas",
+        "props": {
+            "text": "Guía de tallas"
+        }
+    },
+    "drawer-header#my-drawer": {
+        "title": "Header guía de tallas",
+        "children": [
+            "drawer-close-button",
+            "rich-text#header-guia-de-tallas"
+        ]
+    },
+    "rich-text#header-guia-de-tallas": {
+        "title": "Texto header drawer guía de tallas",
+        "props": {
+            "text": "Guía de tallas"
+        }
+    },
+    "drawer-close-button": {
+        "title": "Botón de cerrar drawer"
+    }
+}

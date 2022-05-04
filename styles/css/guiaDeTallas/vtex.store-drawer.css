@@ -1,0 +1,18 @@
+.closeIcon {
+    display: none;
+}
+
+.closeIconButton::before {
+    content: url(https://i.imgur.com/r1VYUKc.png);
+    transform: rotate(180deg);
+    display: inline-block;
+}
+
+.childrenContainer {
+    display: block;
+}
+
+.drawerTriggerContainer {
+    display: flex;
+    justify-content: space-between;
+}

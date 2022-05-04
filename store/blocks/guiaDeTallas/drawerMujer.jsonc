@@ -1,0 +1,44 @@
+{
+    "drawer#size-guide-woman": {
+        "title": "Guía de tallas Mujer",
+        "children": [
+            "image#size-guide-woman"
+        ],
+        "blocks": [
+            "drawer-trigger#size-guide-woman",
+            "drawer-header#my-drawer-woman"
+        ]
+    },
+    "drawer-trigger#size-guide-woman": {
+        "title": "Trigger guía de tallas Mujer",
+        "children": [
+            "rich-text#open-drawer-size-guide-woman",
+            "image#open-drawer"
+        ]
+    },
+    "rich-text#open-drawer-size-guide-woman": {
+        "title": "Texto trigger guía de tallas Mujer",
+        "props": {
+            "text": "Mujer"
+        }
+    },
+    "drawer-header#my-drawer-woman": {
+        "title": "Header guía de tallas Mujer",
+        "children": [
+            "drawer-close-button",
+            "rich-text#header-size-guide-woman"
+        ]
+    },
+    "rich-text#header-size-guide-woman": {
+        "title": "Texto header drawer guía de tallas Mujer",
+        "props": {
+            "text": "Guía de tallas Mujer"
+        }
+    },
+    "image#size-guide-woman":{
+        "title": "Imagen guía de tallas mujer",
+        "props": {
+            "src": "https://imgur.com/HLLiO8N.jpg"
+        }
+    }
+}

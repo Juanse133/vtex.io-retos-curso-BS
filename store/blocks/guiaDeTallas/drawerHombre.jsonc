@@ -1,0 +1,53 @@
+{
+    "drawer#size-guide-man": {
+        "title": "Guía de tallas hombre",
+        "children": [
+            "image#size-guide-woman"
+        ],
+        "blocks": [
+            "drawer-trigger#size-guide-man",
+            "drawer-header#my-drawer-man"
+        ]
+    },
+    "drawer-trigger#size-guide-man": {
+        "title": "Trigger guía de tallas hombre",
+        "children": [
+            "rich-text#open-drawer-size-guide-man",
+            "image#open-drawer"
+        ]
+    },
+    "rich-text#open-drawer-size-guide-man": {
+        "title": "Texto trigger guía de tallas hombre",
+        "props": {
+            "text": "Hombre"
+        }
+    },
+    "drawer-header#my-drawer-man": {
+        "title": "Header guía de tallas hombre",
+        "children": [
+            "drawer-close-button",
+            "rich-text#header-size-guide-man"
+        ]
+    },
+    "rich-text#header-size-guide-man": {
+        "title": "Texto header drawer guía de tallas hombre",
+        "props": {
+            "text": "Guía de tallas Hombre"
+        }
+    },
+    "image#size-guide-man": {
+        "title": "Imagen guía de tallas hombre",
+        "props": {
+            "src": "https://imgur.com/HLLiO8N.jpg"
+        }
+    },
+    "image#open-drawer": {
+        "title": "Imagen de abrir drawer",
+        "props": {
+            "src": "https://i.imgur.com/r1VYUKc.png",
+            "maxWidth": 8,
+            "maxHeight": 13,
+            "blockClass":"open-drawer"
+        }
+    }
+}
