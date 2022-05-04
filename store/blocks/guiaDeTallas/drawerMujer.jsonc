@@ -6,7 +6,7 @@
         ],
         "blocks": [
             "drawer-trigger#size-guide-woman",
-            "drawer-header#my-drawer-woman"
+            "drawer-header#size-guide-woman"
         ]
     },
     "drawer-trigger#size-guide-woman": {
@@ -22,7 +22,7 @@
             "text": "Mujer"
         }
     },
-    "drawer-header#my-drawer-woman": {
+    "drawer-header#size-guide-woman": {
         "title": "Header guía de tallas Mujer",
         "children": [
             "drawer-close-button",

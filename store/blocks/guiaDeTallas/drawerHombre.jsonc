@@ -6,7 +6,7 @@
         ],
         "blocks": [
             "drawer-trigger#size-guide-man",
-            "drawer-header#my-drawer-man"
+            "drawer-header#size-guide-man"
         ]
     },
     "drawer-trigger#size-guide-man": {
@@ -22,7 +22,7 @@
             "text": "Hombre"
         }
     },
-    "drawer-header#my-drawer-man": {
+    "drawer-header#size-guide-man": {
         "title": "Header guía de tallas hombre",
         "children": [
             "drawer-close-button",
