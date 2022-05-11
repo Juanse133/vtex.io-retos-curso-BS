@@ -1,0 +1,61 @@
+{
+    "header": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header.full": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header-layout.desktop": {
+        "children": [
+            "header-row#category-menu-desktop"
+        ]
+    },
+    "header-row#category-menu-desktop": {
+        "title": "Menú",
+        "children": [
+            "menu#category-menu-desktop"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "header-layout.mobile": {
+        "children": [
+            "header-row#category-menu-mobile"
+        ]
+    },
+    "header-row#category-menu-mobile": {
+        "title": "Menú",
+        "children": [
+            "drawer#departments-menu-mobile"
+        ]
+    },
+    "drawer#departments-menu-mobile": {
+        "children": [
+            "flex-layout.row#departments-menu-mobile"
+        ]
+    },
+    "flex-layout.row#departments-menu-mobile": {
+        "title": "Menú",
+        "children": [
+            "flex-layout.col#departments-menu-mobile"
+        ]
+    },
+    "flex-layout.col#departments-menu-mobile": {
+        "children": [
+            "drawer#department-1-menu-mobile",
+            "drawer#department-1-menu-mobile",
+            "drawer#department-1-menu-mobile",
+            "drawer#department-1-menu-mobile",
+            "drawer#department-1-menu-mobile",
+            "drawer#department-1-menu-mobile",
+            "drawer#department-1-menu-mobile"
+        ]
+    }
+}

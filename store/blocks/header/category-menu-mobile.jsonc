@@ -1,0 +1,20 @@
+{
+    "drawer#department-1-menu-mobile": {
+        "children": [
+            "menu#category-1"
+        ],
+        "blocks": [
+            "drawer-trigger#category-menu-mobile"
+        ]
+    },
+    "drawer-trigger#category-menu-mobile": {
+        "children": [
+            "rich-text#category-menu-department-1"
+        ]
+    },
+    "rich-text#category-menu-department-1": {
+        "props": {
+            "text": "Departamento 1"
+        }
+    }
+}
