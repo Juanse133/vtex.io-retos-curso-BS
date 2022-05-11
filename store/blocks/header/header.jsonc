@@ -17,7 +17,7 @@
         ]
     },
     "header-row#category-menu-desktop": {
-        "title": "Menú",
+        "title": "Menú Desktop",
         "children": [
             "menu#category-menu-desktop"
         ],
@@ -31,7 +31,7 @@
         ]
     },
     "header-row#category-menu-mobile": {
-        "title": "Menú",
+        "title": "Menú Mobile",
         "children": [
             "drawer#departments-menu-mobile"
         ]

@@ -1,7 +1,7 @@
 {
     "drawer#department-1-menu-mobile": {
         "children": [
-            "menu#category-1"
+            "flex-layout.row#mobile-categories"
         ],
         "blocks": [
             "drawer-trigger#category-menu-mobile"
@@ -13,8 +13,89 @@
         ]
     },
     "rich-text#category-menu-department-1": {
+        "title": "Departamento 1",
         "props": {
             "text": "Departamento 1"
+        }
+    },
+    "flex-layout.row#mobile-categories": {
+        "children": [
+            "flex-layout.col#mobile-categories"
+        ]
+    },
+    "flex-layout.col#mobile-categories": {
+        "children": [
+            "menu-item#mobile-category-1",
+            "menu-item#mobile-category-1",
+            "menu-item#mobile-category-1",
+            "menu-item#mobile-category-1",
+            "menu-item#mobile-category-1"
+        ]
+    },
+    "menu-item#mobile-category-1": {
+        "title": "Categoría 1",
+        "props": {
+            "id": "menu-item-category-1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "text": "Categoría 1"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#mobile-category-1"
+        ]
+    },
+    "submenu.accordion#mobile-category-1": {
+        "title": "Categoría 1 submenú",
+        "children": [
+            "flex-layout.row#submenu-mobile-category-1"
+        ]
+    },
+    "flex-layout.row#submenu-mobile-category-1": {
+        "children": [
+            "menu#menu-category-1-mobile"
+        ]
+    },
+    "menu#menu-category-1-mobile": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu#category-1-mobile"
+        ]
+    },
+    "menu#category-1-mobile": {
+        "title": "Categoría 1",
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-subcategory-1",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/subcategoria-1",
+                        "noFollow": false,
+                        "text": "Subcategoria"
+                    }
+                },
+                {
+                    "id": "menu-item-subcategory-2",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/subcategoria-2",
+                        "noFollow": false,
+                        "text": "Subcategoria"
+                    }
+                }
+            ]
         }
     }
 }

@@ -1,6 +1,6 @@
 {
     "menu#category-menu-desktop": {
-        "title": "Menú",
+        "title": "Menú ",
         "children": [
             "menu-item#department-1",
             "menu-item#department-1",
