@@ -19,13 +19,24 @@
     },
     "header-layout.mobile": {
         "children": [
-            "header-row#category-menu-mobile"
+            "header-row#category-menu-mobile",
+            "header-row#bottom-row"
         ]
     },
     "header-row#upper-row": {
         "title": "Fila superior",
         "children": [
-            "logo"
+            "logo",
+            "search-bar"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "header-row#bottom-row": {
+        "title": "Fila inferior",
+        "children": [
+            "search-bar"
         ],
         "props": {
             "fullWidth": true

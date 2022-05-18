@@ -1,0 +1,7 @@
+.searchBarIcon::before{
+    content: url(assets/search-icon.png);
+}
+
+.searchIcon{
+    display:none
+}
