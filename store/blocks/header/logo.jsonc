@@ -1,0 +1,11 @@
+{
+    "logo": {
+        "props": {
+            "width": 127,
+            "height": 34,
+            "mobileWidth": 98,
+            "mobileHeight": 27,
+            "url":"assets/blacksip-logo.png"
+        }
+    }
+}

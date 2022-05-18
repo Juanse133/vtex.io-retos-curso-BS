@@ -13,8 +13,23 @@
     },
     "header-layout.desktop": {
         "children": [
+            "header-row#upper-row",
             "header-row#category-menu-desktop"
         ]
+    },
+    "header-layout.mobile": {
+        "children": [
+            "header-row#category-menu-mobile"
+        ]
+    },
+    "header-row#upper-row": {
+        "title": "Fila superior",
+        "children": [
+            "logo"
+        ],
+        "props": {
+            "fullWidth": true
+        }
     },
     "header-row#category-menu-desktop": {
         "title": "Menú Desktop",
@@ -25,15 +40,11 @@
             "fullWidth": true
         }
     },
-    "header-layout.mobile": {
-        "children": [
-            "header-row#category-menu-mobile"
-        ]
-    },
     "header-row#category-menu-mobile": {
         "title": "Menú Mobile",
         "children": [
-            "drawer#departments-menu-mobile"
+            "drawer#departments-menu-mobile",
+            "logo"
         ]
     },
     "drawer#departments-menu-mobile": {
