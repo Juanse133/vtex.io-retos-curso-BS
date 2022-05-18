@@ -27,7 +27,8 @@
         "title": "Fila superior",
         "children": [
             "logo",
-            "search-bar"
+            "search-bar",
+            "login"
         ],
         "props": {
             "fullWidth": true
@@ -55,7 +56,8 @@
         "title": "Menú Mobile",
         "children": [
             "drawer#departments-menu-mobile",
-            "logo"
+            "logo",
+            "responsive-layout.tablet#login"
         ]
     },
     "drawer#departments-menu-mobile": {
@@ -78,6 +80,11 @@
             "drawer#department-1-menu-mobile",
             "drawer#department-1-menu-mobile",
             "drawer#department-1-menu-mobile"
+        ]
+    },
+    "responsive-layout.tablet#login":{
+        "children": [
+            "login"
         ]
     }
 }

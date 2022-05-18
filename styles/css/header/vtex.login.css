@@ -1,0 +1,4 @@
+.container :global(.vtex-button__label)::before{
+    content: url(assets/login-icon.png);
+    margin-right: 13px;
+}

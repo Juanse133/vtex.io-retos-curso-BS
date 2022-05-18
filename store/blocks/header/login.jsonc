@@ -1,0 +1,31 @@
+{
+    "login": {
+        "props": {
+            "showIconProfile": false,
+            "emailAndPasswordTitle": "Entrar",
+            "accessCodeTitle": "Recibir código",
+            "emailPlaceholder": "ejemplo@mail.com",
+            "passwordPlaceholder": "Ingresa tu contraseña",
+            "termsAndConditions": "Al registrarte estas aceptando nuestros los [**Términos y Condiciones**](/terminos-y-condiciones)",
+            "accountOptionLinks": [
+                {
+                    "label": "Mi Perfil",
+                    "path": "/account#/profile",
+                    "cssClass": "profile-link"
+                },
+                {
+                    "label": "Mis Direcciones",
+                    "path": "/account#/addresses",
+                    "cssClass": "profile-link"
+                }
+            ]
+        }
+    },
+    "login-content":{
+        "props": {
+            "optionsTitle":"Ingresa a tu cuenta",
+            "termsAndConditions": "Al registrarte estas aceptando nuestros los [**Términos y Condiciones**](/terminos-y-condiciones)",
+            "defaultOption": 1
+        }
+    }
+}
