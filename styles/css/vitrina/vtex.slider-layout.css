@@ -1,0 +1,9 @@
+.caretIcon{
+    color: #0098DA;
+}
+
+@media (min-width: 40em) {
+    .caretIcon{
+        color: #140A9A;
+    }
+}

@@ -1,0 +1,18 @@
+.flexRow--add-to-cart :global(.vtex-button) {
+    background: #FFBB00;
+    border-radius: 5px;
+    border: 0;
+}
+
+@media (min-width: 40em) {
+    .flexRow--add-to-cart :global(.vtex-button) {
+        background: #000;
+    }
+}
+
+@media (min-width: 64em) {
+    .flexRow--add-to-cart :global(.vtex-button) {
+        border: 1px solid #2E3192;
+        background: #fff;
+    }
+}

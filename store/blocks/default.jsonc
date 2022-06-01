@@ -1,19 +1,22 @@
 {
     "store.orderplaced": {
-        "blocks": ["order-placed"]
+        "blocks": [
+            "order-placed"
+        ]
     },
-
     "store.account": {
-        "blocks": ["my-account"],
+        "blocks": [
+            "my-account"
+        ],
         "parent": {
             "challenge": "challenge.profile"
         }
     },
-
     "store.login": {
-        "blocks": ["login-content#default"]
+        "blocks": [
+            "login-content#default"
+        ]
     },
-
     "login-content#default": {
         "props": {
             "isInitialScreenOptionOnly": false,
@@ -21,17 +24,31 @@
             "showPasswordVerificationIntoTooltip": true
         }
     },
-
     "product-summary.shelf": {
         "children": [
             "product-summary-add-to-list-button",
             "product-summary-image",
+            "product-brand",
             "product-summary-name",
             "product-rating-inline",
             "product-summary-space",
             "product-summary-price",
-            "product-identifier.summary",
-            "add-to-cart-button"
+            "flex-layout.row#add-to-cart-button"
         ]
+    },
+    "product-summary-price": {
+        "props": {
+            "showLabels": false,
+            "showInstallments": false
+        }
+    },
+    "flex-layout.row#add-to-cart-button": {
+        "children": [
+            "add-to-cart-button"
+        ],
+        "title": "Botón de agregar al carrito",
+        "props": {
+            "blockClass": "add-to-cart"
+        }
     }
 }

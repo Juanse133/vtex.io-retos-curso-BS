@@ -13,7 +13,8 @@
                 "desktop": "disabled",
                 "tablet": "disabled",
                 "mobile": "to-the-left"
-            }
+            },
+            "showPaginationDots": "never"
         }
     }
 }
