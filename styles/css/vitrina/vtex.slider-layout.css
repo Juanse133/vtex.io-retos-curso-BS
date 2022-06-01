@@ -7,3 +7,9 @@
         color: #140A9A;
     }
 }
+
+@media (min-width: 64em) {
+    .caretIcon{
+        color: #000;
+    }
+}
