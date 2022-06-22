@@ -1,0 +1,19 @@
+.paragraph--menu-titulo {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #fff;
+}
+
+
+.paragraph--disclaimer {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+@media(min-width:40em) and (max-width:64em) {
+    .container--menu-titulo {
+        justify-content: center;
+    }
+}

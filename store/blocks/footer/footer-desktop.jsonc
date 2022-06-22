@@ -1,0 +1,81 @@
+{
+    "flex-layout.row#footer-desktop": {
+        "children": [
+            "flex-layout.col#footer-desktop"
+        ],
+        "props": {
+            "blockClass": "footer"
+        }
+    },
+    "flex-layout.col#footer-desktop": {
+        "children": [
+            "flex-layout.row#footer-social-networks",
+            "flex-layout.row#footer-desktop-menu"
+        ]
+    },
+    "flex-layout.row#footer-desktop-menu": {
+        "children": [
+            "flex-layout.col#about-us",
+            "flex-layout.col#help",
+            "flex-layout.col#contact-us",
+            "flex-layout.col#payment-methods"
+        ]
+    },
+    "flex-layout.col#about-us": {
+        "children": [
+            "rich-text#about-us",
+            "menu#about-us"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#help": {
+        "children": [
+            "rich-text#help",
+            "menu#help"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#contact-us": {
+        "children": [
+            "rich-text#contact-us",
+            "menu#contact-us"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#payment-methods": {
+        "children": [
+            "rich-text#payment-methods",
+            "flex-layout.row#footer-payment-methods"
+        ],
+        "props": {
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.row#footer-disclaimer": {
+        "children": [
+            "rich-text#disclaimer",
+            "flex-layout.col#disclaimer-logos"
+        ],
+        "props": {
+            "blockClass": "disclaimer",
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#disclaimer": {
+        "props": {
+            "text": "BlackSip 2022 © Todos los derechos reservados  |  Empowered By",
+            "blockClass": "disclaimer"
+        }
+    },
+    "flex-layout.col#disclaimer-logos": {
+        "children": [
+            "flex-layout.row#disclaimer-logos"
+        ]
+    }
+}

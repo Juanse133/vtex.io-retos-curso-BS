@@ -1,0 +1,68 @@
+.flexRow--footer {
+    background-color: black;
+}
+
+.flexRow--footer :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRowContent--redes-sociales {
+    margin: 37px 0 29px 0;
+    place-content: center;
+    column-gap: 30px;
+}
+
+.flexRowContent--payment-methods {
+    margin: 25px 0 39px 0;
+    place-content: center;
+    column-gap: 30px;
+}
+
+.flexRow--disclaimer,
+.flexCol--disclaimer {
+    background-color: #fff
+}
+
+.flexColChild--disclaimer {
+    align-self: center;
+}
+
+.flexRowContent--payment-methods-images {
+    display: flex;
+    column-gap: 16px;
+    margin-bottom: 16px;
+}
+
+.flexRowContent--footer-trigger-menu {
+    justify-content: space-between;
+}
+
+@media(min-width:40em) and (max-width:64em) {
+    .flexRowContent--footer {
+        display: block;
+    }
+
+    .flexRowContent--footer .stretchChildrenWidth {
+        width: 100% !important;
+    }
+}
+
+@media (min-width:64em) {
+    .flexRowContent--redes-sociales {
+        place-content: end;
+    }
+
+    .flexRowContent--payment-methods {
+        place-content: start;
+    }
+
+    .flexRowContent--disclaimer {
+        place-content: center;
+        align-items: center;
+    }
+
+    .flexRowContent--payment-methods-images {
+        margin-bottom: 0;
+        padding-left: 10px;
+    }
+}

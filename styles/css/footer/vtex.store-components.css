@@ -1,0 +1,11 @@
+.imageElement--payment-methods {
+    height: fit-content;
+    align-self: center;
+}
+
+.imageElement--disclosure-arrow-state-indicator {
+    width: fit-content;
+    height: fit-content;
+    place-self: center;
+}
+

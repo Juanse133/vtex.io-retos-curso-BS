@@ -1,0 +1,185 @@
+{
+    "flex-layout.row#footer-mobile": {
+        "title": "Footer mobile",
+        "children": [
+            "flex-layout.col#footer-mobile-social-networks",
+            "flex-layout.col#footer-mobile-menu",
+            "flex-layout.col#footer-mobile-payment-methods",
+            "flex-layout.col#footer-mobile-disclaimer"
+        ],
+        "props": {
+            "blockClass": "footer"
+        }
+    },
+    "flex-layout.col#footer-mobile-social-networks": {
+        "children": [
+            "flex-layout.row#footer-social-networks"
+        ]
+    },
+    "flex-layout.col#footer-mobile-menu": {
+        "title": "Menú Footer",
+        "children": [
+            "disclosure-layout-group#footer-mobile-menu"
+        ]
+    },
+    "disclosure-layout-group#footer-mobile-menu": {
+        "children": [
+            "disclosure-layout#about-us",
+            "disclosure-layout#help",
+            "disclosure-layout#contact-us"
+        ]
+    },
+    "disclosure-layout#about-us": {
+        "children": [
+            "flex-layout.row#trigger-about-us",
+            "disclosure-content#about-us"
+        ]
+    },
+    "flex-layout.row#trigger-about-us": {
+        "children": [
+            "disclosure-trigger#about-us",
+            "disclosure-state-indicator#footer"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "footer-trigger-menu"
+        }
+    },
+    "disclosure-trigger#about-us": {
+        "children": [
+            "rich-text#about-us"
+        ],
+        "props": {
+            "as": "div"
+        }
+    },
+    "disclosure-content#about-us": {
+        "children": [
+            "menu#about-us"
+        ]
+    },
+    "rich-text#about-us": {
+        "props": {
+            "text": "Nosotros",
+            "blockClass": "menu-titulo"
+        }
+    },
+    "disclosure-layout#help": {
+        "children": [
+            "flex-layout.row#trigger-help",
+            "disclosure-content#help"
+        ]
+    },
+    "flex-layout.row#trigger-help": {
+        "children": [
+            "disclosure-trigger#help",
+            "disclosure-state-indicator#footer"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "footer-trigger-menu"
+        }
+    },
+    "disclosure-trigger#help": {
+        "children": [
+            "rich-text#help"
+        ],
+        "props": {
+            "as": "div"
+        }
+    },
+    "disclosure-content#help": {
+        "children": [
+            "menu#help"
+        ]
+    },
+    "rich-text#help": {
+        "props": {
+            "text": "Ayuda",
+            "blockClass": "menu-titulo"
+        }
+    },
+    "disclosure-layout#contact-us": {
+        "children": [
+            "flex-layout.row#trigger-contact-us",
+            "disclosure-content#contact-us"
+        ]
+    },
+    "flex-layout.row#trigger-contact-us": {
+        "children": [
+            "disclosure-trigger#contact-us",
+            "disclosure-state-indicator#footer"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "footer-trigger-menu"
+        }
+    },
+    "disclosure-trigger#contact-us": {
+        "children": [
+            "rich-text#contact-us"
+        ],
+        "props": {
+            "as": "div"
+        }
+    },
+    "disclosure-content#contact-us": {
+        "children": [
+            "menu#contact-us"
+        ]
+    },
+    "rich-text#contact-us": {
+        "props": {
+            "text": "Contáctanos",
+            "blockClass": "menu-titulo"
+        }
+    },
+    "disclosure-state-indicator#footer": {
+        "props": {
+            "Show": "image#icon-angle--down",
+            "Hide": "image#icon-angle--up"
+        }
+    },
+    "image#icon-angle--down": {
+        "props": {
+            "src": "assets/anchor-down.png",
+            "blockClass": "disclosure-arrow-state-indicator"
+        }
+    },
+    "image#icon-angle--up": {
+        "props": {
+            "src": "assets/anchor-up.png",
+            "blockClass": "disclosure-arrow-state-indicator"
+        }
+    },
+    "flex-layout.col#footer-mobile-payment-methods": {
+        "children": [
+            "rich-text#payment-methods",
+            "flex-layout.row#footer-payment-methods"
+        ]
+    },
+    "rich-text#payment-methods": {
+        "props": {
+            "text": "Medios de pago",
+            "blockClass": "menu-titulo"
+        }
+    },
+    "flex-layout.col#footer-mobile-disclaimer": {
+        "children": [
+            "rich-text#mobile-disclaimer",
+            "flex-layout.row#disclaimer-logos"
+        ],
+        "props": {
+            "blockClass": "disclaimer"
+        }
+    },
+    "rich-text#mobile-disclaimer": {
+        "props": {
+            "text": "© Todos los derechos reservados Empowered By",
+            "blockClass": "disclaimer"
+        }
+    }
+}

@@ -1,0 +1,283 @@
+{
+    "footer": {
+        "blocks": [
+            "footer-layout.desktop",
+            "footer-layout.mobile"
+        ]
+    },
+    "footer-layout.desktop": {
+        "children": [
+            "flex-layout.row#footer-desktop",
+            "flex-layout.row#footer-disclaimer"
+        ]
+    },
+    "footer-layout.mobile": {
+        "children": [
+            "flex-layout.row#footer-mobile"
+        ]
+    },
+    "flex-layout.row#footer-social-networks": {
+        "title": "Redes sociales",
+        "children": [
+            "image#social-network-facebook",
+            "image#social-network-instagram",
+            "image#social-network-whatsapp"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "blockClass": "redes-sociales"
+        }
+    },
+    "image#social-network-facebook": {
+        "title": "Facebook",
+        "props": {
+            "src": "assets/Facebook.png",
+            "link": {
+                "newTab": true,
+                "url": "https://facebook.com/foo"
+            }
+        }
+    },
+    "image#social-network-instagram": {
+        "title": "Instagram",
+        "props": {
+            "src": "assets/Instagram.png",
+            "link": {
+                "newTab": true,
+                "url": "https://instagram.com/foo"
+            }
+        }
+    },
+    "image#social-network-whatsapp": {
+        "title": "Whatsapp",
+        "props": {
+            "src": "assets/Whatsapp.png",
+            "link": {
+                "newTab": true,
+                "url": "https://api.whatsapp.com/send?phone=573012345678"
+            }
+        }
+    },
+    "flex-layout.row#footer-payment-methods": {
+        "title": "Medios de pago",
+        "children": [
+            "image#payment-method-mastercard",
+            "image#payment-method-visa",
+            "image#payment-method-american express"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "blockClass": "payment-methods"
+        }
+    },
+    "image#payment-method-mastercard": {
+        "title": "Mastercard",
+        "props": {
+            "src": "assets/Mastercard.png",
+            "blockClass": "payment-methods"
+        }
+    },
+    "image#payment-method-visa": {
+        "title": "Visa",
+        "props": {
+            "src": "assets/Visa.png",
+            "blockClass": "payment-methods"
+        }
+    },
+    "image#payment-method-american express": {
+        "title": "American express",
+        "props": {
+            "src": "assets/American express.png",
+            "blockClass": "payment-methods"
+        }
+    },
+    "menu#about-us": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-link",
+            "items": [
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/foo",
+                        "noFollow": false,
+                        "text": "Quiénes Somos"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/foo",
+                        "noFollow": false,
+                        "text": "Aviso de Privacidad"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/foo",
+                        "noFollow": false,
+                        "text": "Términos y Condiciones"
+                    }
+                }
+            ]
+        }
+    },
+    "menu#help": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-link",
+            "items": [
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/foo",
+                        "noFollow": false,
+                        "text": "Preguntas frecuentes"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/foo",
+                        "noFollow": false,
+                        "text": "Políticas de pago"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/foo",
+                        "noFollow": false,
+                        "text": "Políticas de envío"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/foo",
+                        "noFollow": false,
+                        "text": "Condiciones de Cambio"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/foo",
+                        "noFollow": false,
+                        "text": "Políticas de Garantías"
+                    }
+                }
+            ]
+        }
+    },
+    "menu#contact-us": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu-link",
+            "items": [
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "tel:+573156164959",
+                        "noFollow": false,
+                        "text": "Colombia: (+57) 315 616 4959"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "tel:+525518643468",
+                        "noFollow": false,
+                        "text": "México: (+52) 55 1864 3468"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "tel:+51933245813",
+                        "noFollow": false,
+                        "text": "Perú: (+51) 933 245813"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "tel:+56988130017",
+                        "noFollow": false,
+                        "text": "Chile: (+56) 9 8813 0017"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "tel:+593989020121",
+                        "noFollow": false,
+                        "text": "Ecuador: (+593) 98 902 0121"
+                    }
+                }
+            ]
+        }
+    },
+    "flex-layout.row#disclaimer-logos": {
+        "children": [
+            "image#blacksip-logo",
+            "image#vtex-logo"
+        ],
+        "props": {
+            "blockClass": "payment-methods-images"
+        }
+    },
+    "image#blacksip-logo": {
+        "props": {
+            "src": "assets/Blacksip.png"
+        }
+    },
+    "image#vtex-logo": {
+        "props": {
+            "src": "assets/Vtex.png"
+        }
+    }
+}
